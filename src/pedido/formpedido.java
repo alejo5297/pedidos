@@ -164,8 +164,6 @@ public class formpedido extends javax.swing.JFrame {
         }finally{
             cn.cierraConexion();
         }
-      
-     
   }
     public void obtenernombre(){
         Connection conexion = cn.conector();
