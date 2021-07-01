@@ -407,7 +407,6 @@ public class formpedido extends javax.swing.JFrame {
     
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
     obtenernombre();
-    //fecha();
     Connection conexion = cn.conector();
     String codigo = this.id;
     int num_pedido = this.codigo+1;
